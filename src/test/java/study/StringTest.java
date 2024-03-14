@@ -49,7 +49,7 @@ public class StringTest {
 
         char charAtResult = charAtTarget.charAt(0);
 
-        assertThat(charAtTarget).isEqualTo('a');
+        assertThat(charAtResult).isEqualTo('a');
     }
 
     @Test
